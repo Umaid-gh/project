@@ -1,0 +1,157 @@
+body{
+    background-color: rgba(223, 255, 134, 0.842);
+    background-image: url(bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.link-title{
+    Font-size:30px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+}
+.page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+header{
+    padding: Auto;
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color: rgba(156, 156, 156, 0);
+}   
+.menu{
+    background-color: rgba(54, 53, 53, 0.055);
+    padding:auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.menu a{
+    color: honeydew;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: goldenrod;
+    text-decoration: none;
+    opacity: 50%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    background-color:rgba(138, 138, 138, 0.014);
+    padding: 35px 40px 30px 20px;
+    margin-top: 20px;
+    margin-left:160px;
+    margin-right: 30px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-emphasis: justify;
+}
+.menu :hover{
+    color: black;
+    background-color: yellow;
+}
+aside{
+    float: left;
+    background-color: rgb(66, 66, 7);
+    width:120px;
+    height: 500px;
+    padding: auto;
+    text-align: center;
+}
+.main p{
+    padding-left: 315px ;
+}
+footer{
+    position: fixed;
+    color: black;
+    padding: Auto;
+    text-align: center;
+    background-color: rgba(54, 53, 53, 0.055);
+    width: 100%;
+    bottom: 0;
+}
+.home-image img{
+    width: auto;
+    float :left;
+}
+.separator{
+    color: honeydew;
+}
+/* About Page style */
+.about-page{
+    background-image: url(bg-img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contact-page{
+    background-image: url(bg-img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.abt-info img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    border-radius: 375px;
+    width: 350px;
+}
+.abt-detail{
+    float: left;
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: 40px;
+    color: black;
+}
+.profile-info{
+    float: right;
+    margin-top: 20px;
+    widows: 25px;
+    margin: 5px;
+    color: cornsilk;
+}
+#form{
+    color: black;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-left: 700px;
+    padding: 20px;
+     /* text-align: center; */
+     box-shadow: 2px 4px 11px 4px;
+
+     
+}
+#form input{
+    color: honeydew;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.575);
+    border-radius: 5px;
+
+}
+/* #form input */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+#form #message {
+    width: 100%;
+    background: rgba(128, 128, 128, 0.575);
+    border-radius: 5px;
+}
+#form #submit {
+    /* width: 100%; */
+    background: rgb(1, 3, 15);
+    border-radius: 5px;
+
+}
